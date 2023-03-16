@@ -1,0 +1,17 @@
+@import './config.css';
+
+.login {
+  background-color: grey;
+  height: 100vh;
+}
+.login__window {
+  background-color: white;
+  height: 600px;
+  width: 400px;
+}
+.login > .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
