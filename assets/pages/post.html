@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,23 +8,36 @@
     <title>Post a new note</title>
     <link rel="stylesheet" href="../styles/post.css">
 </head>
+
 <body>
     <section class="main section__padding">
         <div class="container">
             <h1 class="main__title">Post a new update</h1>
-            <div class="main__input">
-                <span>Update title:</span>
-                <input type="text">
-            </div>
-            <div class="main__input">
-                <span>Update date:</span>
-                <input type="text">
-            </div>
-            <div class="main__input">
-                <span>Content:</span>
-                <input type="text">
+            <form id="postForm">
+                <div>
+                    <span>Update title:</span>
+                    <input type="text" id="title">
+                </div>
+                <div>
+                    <span>Content:</span>
+                    <input type="text" id="content">
+                </div>
+                <button type="submit" id="submitBtn">submit</button>
+            </form>
+            <div class="reports__grid">
+                
             </div>
         </div>
     </section>
+    <section class="online__reports">
+        <div class="container">
+            <div class="reports__grid">
+                
+            </div>
+        </div>
+    </section>
+    <script src="../scripts/getReports.js"></script>
+    <script src="../scripts/postReports.js "></script>
 </body>
+
 </html>

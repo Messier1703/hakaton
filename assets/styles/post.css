@@ -1,6 +1,7 @@
 @import './config.css';
 
 .main {
-    height: 100vh;
+    height: auto;
     background-color: grey;
 }
+
